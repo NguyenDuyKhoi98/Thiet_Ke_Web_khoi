@@ -1,0 +1,252 @@
+/* Khung, nền*/
+.nen{
+    background: url(Images/Images/nen_bien.jpg);
+    width: 100%;
+    padding: 10px;
+}
+
+.space{
+    height: 20px;
+}
+.khungTrangWeb{
+    width: 85%;
+    margin: 10px auto;
+    border: 2px solid black;
+    background: gray;
+    
+}
+
+/* Header: banner, navigation bar */
+.header{
+    background: url(Images/Images/menu_bg.png);
+    /*canh giữa cho thanh navigation:
+    text-align: center;
+    */
+    
+}
+
+
+.nav{
+    display: inline;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    /*
+    vì là inline nên chỉnh text align được, block ko chỉnh được
+    text align ở đây chỉnh cho chữ trong ô
+    */
+
+    /* chỉnh position cho nav  */
+    position: fixed;
+    top: 0px;
+    background: url(Images/Images/menu_bg.png);
+    
+}
+
+.nav a{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav a:hover{
+    background: orange;
+}
+
+/* Main: left, right */
+
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 7px auto;
+    align-content: flex-start;
+}
+
+.left{
+    width: 25%;
+    background: white;
+    margin: 5px 5px 5px 0px;
+    height: auto;
+}
+
+.h3{
+    background: steelblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    /* có thể dùng padding thay cho line height */
+}
+
+.left a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.left a:hover{
+    background: yellow;
+}
+
+
+.danhmuc{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(0, 0, 87);
+}
+
+.danhmuc li{
+    margin: 10px;
+    font-size: large;
+}
+
+.indam{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.dmcon li{
+    font-weight: lighter;
+}
+
+.right{
+    width: 74%;
+    text-align: center;
+}
+
+.vungsp{
+    width: 97%;
+    height: 350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp{
+    display: inline-block;
+    width: 31%;
+    background: white;
+}
+
+.sp:hover{
+    background: rgb(230, 216, 203);
+}
+
+.vungsp img{
+    margin: 15px auto;
+    display: block;
+}
+
+.sp p{
+    color: rgb(42, 42, 203);
+    margin: 8px;
+}
+
+.sp h5{
+    color: red;
+    font-weight: bold;
+    margin: 8px;
+    font-size: large;
+}
+
+.mua{
+    text-decoration: none;
+    color: white;
+    background: orange ;
+    border-radius: 7px;
+    margin: 8px;
+    padding: 5px;
+}
+
+/* footer: info + liên hệ và cre */
+
+.footer{
+    background: white;
+    margin: 10px 0px 0px 0px;
+}
+
+.info{
+    display: inline-block;
+    width: 45%;
+    background: white;
+    text-align: left;
+    padding: 10px 10px 5px 50px;
+}
+
+.info h3{
+    color: rgb(67, 67, 154);
+    background: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: left;
+}
+
+.info p{
+    line-height: 200%;
+    margin: 0px 0px 5px 5px;
+    color: rgb(1, 107, 194);
+}
+
+.contact{
+    display: inline-block;
+    width: 45%;
+    background: white;
+    text-align: left;
+    padding: 10px 0px 5px 30px;
+
+}
+
+.contact h3{
+    color: rgb(67, 67, 154);
+    background: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: left;
+}
+
+.contact form{
+    margin: 0px 5px 5px 15px;
+    color: rgb(0, 0, 197);
+}
+
+.contact img{
+    display: inline-block;
+}
+
+.logo{
+    margin: 10px 5px 5px 15px;
+}
+
+
+.cre{
+    background: rgb(0, 0, 255);
+    color: white;
+    line-height: 250%;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

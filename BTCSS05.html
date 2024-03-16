@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Vertical navigation bar (thanh đứng)*/
+        .divvernar{
+            background-color: green;
+            display: block;
+            
+        }
+        .divvernar a{
+            display: inline-block;
+            text-align: center;
+            width: 15%;
+            text-decoration: none;
+            text-transform: uppercase;
+            font: 18px bold;
+            font-family: 'Times New Roman';
+            color: white;
+            line-height: 45px;
+        }
+        /*Vertical navigation bar (thanh đứng)*/
+        .divhornar{
+            background-color: green;
+            display: inline-block;
+            width: 15%;
+
+        }
+        .divhornar a{
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            text-transform: uppercase;
+            font: 18px bold;
+            font-family: 'Times New Roman';
+            color: white;
+            line-height: 50px;
+            padding: 0 10px 0 0 ;
+        }
+
+        /*
+        hover, active, visited có thể chỉnh riêng cho từng div
+        */
+        .divvernar a:hover{
+            background-color: orange;
+            color: crimson;
+            width: 20%;
+            font-size: 22px;
+        }
+
+        .divhornar a:hover{
+            background-color: orange;
+            color: crimson;
+            width: 120%;
+            font-size: 22px;
+            text-align: right;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        a:visited{
+            color: magenta;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!--Vertical navigation bar (thanh đứng)-->
+    <div class="divvernar">
+        <a href="https://www.google.com.vn/">home</a>
+        <a href="https://www.google.com.vn/">news</a>
+        <a href="https://www.google.com.vn/">articles</a>
+        <a href="https://www.google.com.vn/">forum</a>
+        <a href="https://www.google.com.vn/">contact</a>
+        <a href="https://www.google.com.vn/">about</a>
+    </div>
+    <br>
+    <br>
+    <!--Vertical navigation bar (thanh đứng)-->
+    <div class="divhornar">
+        <a href="https://www.google.com.vn/">home</a> <br>
+        <a href="https://www.google.com.vn/">news</a> <br>
+        <a href="https://www.google.com.vn/">articles</a> <br>
+        <a href="https://www.google.com.vn/">forum</a> <br>
+        <a href="https://www.google.com.vn/">contact</a> <br>
+        <a href="https://www.google.com.vn/">about</a>
+    </div>
+
+    
+</body>
+</html>

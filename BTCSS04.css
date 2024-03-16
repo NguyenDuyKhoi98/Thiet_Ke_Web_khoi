@@ -1,0 +1,26 @@
+.H3{
+    text-align: center;
+}
+
+/* định dạng nhiều đối tượng: table, td, th*/
+.table, td, th{
+    border: 2px cyan solid;
+    border-collapse: collapse;
+    margin: 15px;
+    padding: 5px 8px 5px 8px;
+}
+
+.table th{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* định dạng cột chẵn*/
+.table tr:nth-child(odd){
+    background-color: burlywood;
+}
+
+/* định dạng cột lẻ*/
+.table tr:nth-child(even){
+    background-color: white;
+}
